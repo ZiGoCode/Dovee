@@ -1,0 +1,37 @@
+.container-fluid{
+    padding-top: 100px;
+}
+
+.col-lg-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bt-join{
+    margin-top: 20px;
+}
+.row{
+    padding: 60px;
+}
+.add-btn{
+    margin-right: 10px;
+}
+.icon-star{
+    /* font-size: 16px; */
+    color: orangered;
+}
+
+.person{
+    font-size: 100px;
+    color: lightcoral;
+   margin-left: 43%;
+}
+.room{
+    color: rgb(51, 255, 0);
+    cursor: pointer;
+}
+.div-icon{
+    
+    width: 100%;
+}

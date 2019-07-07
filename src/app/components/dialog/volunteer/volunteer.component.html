@@ -1,0 +1,80 @@
+<div class="content-padding">
+    <div class="row">
+        <div class="col-lg-6 pd">
+            <h3 class="text-h">
+                Call for Volunteers
+            </h3>
+            <mat-form-field color="accent" class="example-full-width">
+                <label for="">
+                    <i class="material-icons">
+                        person
+                    </i>
+                    Full Name
+                </label>
+                <input matInput type="text">
+            </mat-form-field>
+            <mat-form-field color="accent" class="example-full-width">
+                <label for="">
+                    <i class="material-icons">
+                        local_phone
+                    </i>
+                    Phone
+                </label>
+                <input matInput type="tel">
+            </mat-form-field>
+            <mat-form-field color="accent" class="example-full-width">
+                <label for="">
+                    <i class="material-icons">
+                        access_time
+                    </i>
+                    Boarding Time
+                </label>
+                <input matInput type="time">
+            </mat-form-field>
+            <mat-form-field color="accent" class="example-full-width">
+                <label for="">
+                    <i class="material-icons">
+                        place
+                    </i>
+                    Place
+                </label>
+                <input matInput type="text">
+            </mat-form-field>
+            <mat-form-field color="accent" class="example-full-width">
+                <label for="">
+                    <i class="material-icons">
+                        supervisor_account
+                    </i>
+                    Gender Driver
+                </label>
+                <mat-select>
+                    <mat-option value="option">Man</mat-option>
+                    <mat-option value="option">Woman</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <div mat-dialog-actions align="end">
+                <button mat-raised-button [color]="'cancel'" (click)="onNoClick()">Cancel</button>
+                <button mat-raised-button [color]="'success'">Register</button>
+            </div>
+        </div>
+        <div class="col-lg-6 bg">
+            <div class="car-b">
+                <button mat-mini-fab text="center" [color]="'car'" class="md-button" (click)="onClick()">
+                    <mat-icon>directions_car</mat-icon>
+                </button>
+                <p>Car</p>
+            </div>
+            <div class="car-b">
+                <button mat-mini-fab text="center" [color]="'car'" class="md-button">
+                    <mat-icon>motorcycle</mat-icon>
+                </button>
+                <p>Bike</p>
+            </div>
+
+            <!-- <img class="img-z" src="../../../../assets/img/volunteer/volunteer-agencyimg.jpg" alt=""> -->
+        </div>
+    </div>
+
+
+
+</div>

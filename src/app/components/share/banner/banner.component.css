@@ -1,0 +1,31 @@
+.text-thai {
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff6869;
+}
+
+
+.add-btn {
+    cursor: pointer;
+}
+
+.md-button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    margin-top: 100px;
+    padding: 0;
+}
+
+.card-img img {
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

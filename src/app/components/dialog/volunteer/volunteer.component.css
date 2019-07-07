@@ -1,0 +1,63 @@
+.content-padding {
+    padding: 30px;
+}
+
+.text-h {
+    font-weight: 800;
+    color: #535353;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+label {
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: #535353;
+}
+
+input {
+    font-size: 16px;
+}
+
+label i {
+    margin: 0 3px 0 0;
+}
+
+.pd {
+    padding-right: 55px;
+}
+
+.img-z {
+    width: 100%;
+}
+
+.bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-b {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.car-b p{
+    font-size: 16;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.md-button {
+    width: 60px;
+    height: 60px;
+    /* display: flex;
+    justify-content: center; */
+}

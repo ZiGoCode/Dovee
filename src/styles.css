@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.mat-success {
+    background-color: #ff6869;
+    color: #fff;
+}
+
+.mat-cancel {
+    color: #ff6869;
+}
+
+.mat-car {
+    background: #FF0033;
+    color: #fff;
+}
+
+.thai {
+    font-family: 'Kanit', sans-serif;
+}
